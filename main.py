@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 #input("THIS IS AN EARLY BUILD OF THIS PROGRAM. FEATURES ARE LIMITED.\nHERE ARE SOME THINGS YOU CAN AND CANNOT DO IN THIS EARLY BUILD: \n1.YOU CANNOT PASTE TEXT FROM THE CLIPBOARD :( \n2.YOU CAN HOWEVER TYPE IN TEXT AND THE PROGRAM WILL WORK AS INTENDED. \nPress Enter (Return) to Continue...")
+import pyfiglet
+banner = pyfiglet.figlet_format("WORD COUNTER")
+print(banner)
 input("Press Enter (Return) to Get Started...")
 words = input("ENTER WORDS TO COUNT\n")
 
